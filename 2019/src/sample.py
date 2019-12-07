@@ -1,3 +1,5 @@
 with open('/data/sample.txt') as f:
-    while l in f:
-        print(f)
+    line = f.readline()
+    while line:
+        print(line)
+        line = f.readline()
