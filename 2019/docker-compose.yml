@@ -1,0 +1,7 @@
+version: "2"
+
+services:
+  app:
+    image: python:3
+    volumes:
+      - ./data:/data
