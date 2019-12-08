@@ -2,6 +2,7 @@ version: "2"
 
 services:
   app:
-    image: python:3
+    build: .
     volumes:
       - ./data:/data
+      - ./aoclib:/aoclib
